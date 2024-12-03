@@ -11,7 +11,7 @@ import java.util.Objects;
 public class Consola {
     private Consola(){}
 
-    public void mostrarMenuPrincipal(){
+    public static void mostrarMenuPrincipal(){
         System.out.println("1: Controlar un robot por defecto");
         System.out.println("2: Controlar un robot indicando su zona");
         System.out.println("3: Controlar un robot indicando su zona y orientación");
@@ -21,8 +21,7 @@ public class Consola {
 
     }
 
-    public int elegirOpcion() {
-        mostrarMenuPrincipal();
+    public static  int elegirOpcion() {
         int opcionElegida = 0;
         do {
             System.out.print("Introduce el número de la opción seleccionada: ");
