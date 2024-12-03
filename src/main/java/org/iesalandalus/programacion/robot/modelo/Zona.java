@@ -45,5 +45,5 @@ public record Zona(int ancho, int alto) {
 
 
     private boolean perteneceY( int y) { return (y >= 0) && (y < alto);}
-
+    
 }

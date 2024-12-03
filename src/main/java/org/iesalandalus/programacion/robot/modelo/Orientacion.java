@@ -13,7 +13,6 @@ public enum Orientacion {
     private String nombre;
     private Orientacion(String nombre) {
         this.nombre = nombre;
-
     }
 
     @Override
